@@ -40,7 +40,7 @@ $numero = $_POST['numero'] ?? null;
                 echo '<div class="alert alert-success">Sábado</div>';
                 break;
             default:
-                echo '<div class="alert alert-danger">Número inválido. Digite um número de 1 a 7</div>';
+                echo '<div class="alert alert-danger">Número inválido. Digite um número inteiro de 1 a 7</div>';
         }
         ?>
         <a href="index.html"><button type="button" class="btn btn-light">Voltar</button></a>
